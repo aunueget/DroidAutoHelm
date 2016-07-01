@@ -1,0 +1,74 @@
+com.example.bluedrive.AutoHelm:
+    public android.location.Location mLocation
+    public static final java.lang.String PREFS_NAME
+    public static final int TACK_PORT
+    public static final int TACK_STARBOARD
+    public static final int MESSAGE_STATE_CHANGE
+    public static final int MESSAGE_READ
+    public static final int MESSAGE_WRITE
+    public static final int MESSAGE_DEVICE_NAME
+    public static final int MESSAGE_TOAST
+    public static final java.lang.String DEVICE_NAME
+    public static final java.lang.String TOAST
+    private static final int REQUEST_CONNECT_DEVICE_SECURE
+    private static final int REQUEST_ENABLE_BT
+    public android.media.MediaPlayer mp
+com.example.bluedrive.BluetoothChatService:
+    private static final java.lang.String TAG
+    private static final boolean D
+    private static final java.lang.String NAME_SECURE
+    public static final int STATE_NONE
+    public static final int STATE_LISTEN
+    public static final int STATE_CONNECTING
+    public static final int STATE_CONNECTED
+com.example.bluedrive.BuildConfig
+com.example.bluedrive.DeviceListActivity:
+    private static final java.lang.String TAG
+    private static final boolean D
+com.example.bluedrive.HandsOnImageView:
+    276:276:public int getTriangleLocation(int)
+    299:299:public boolean isAutoDrive()
+    312:312:public boolean isAutoOn()
+com.example.bluedrive.MyLocationListener:
+    private static final int COUNTMAX
+    82:82:public boolean isHasbearing()
+    86:87:public void setHasbearing(boolean)
+    90:90:public double getDbllatitude()
+    94:95:public void setDbllatitude(double)
+    98:98:public double getDbllongitude()
+    102:103:public void setDbllongitude(double)
+    106:106:public double getDblaltitude()
+    110:111:public void setDblaltitude(double)
+    118:119:public void setBearing(float)
+    122:132:public void calculateBearing()
+    135:140:public int getValidCount(int)
+    144:144:public int getCalculatedBearing()
+    148:149:public void setCalculatedBearing(int)
+com.example.bluedrive.Point2D:
+    13:13:public double getX()
+    17:18:public void setX(double)
+    21:21:public double getY()
+    25:26:public void setY(double)
+com.example.bluedrive.R
+com.example.bluedrive.R$attr
+com.example.bluedrive.R$color
+com.example.bluedrive.R$drawable
+com.example.bluedrive.R$id
+com.example.bluedrive.R$layout
+com.example.bluedrive.R$menu
+com.example.bluedrive.R$raw
+com.example.bluedrive.R$string
+com.example.bluedrive.R$style
+com.example.bluedrive.RadialTriangle:
+    54:54:public com.example.bluedrive.TrianglePoints[] getVectors()
+    61:61:public android.graphics.Point getCenterPoint()
+    150:153:public android.graphics.Point getProjectedTriangle(int,com.example.bluedrive.RadialTriangle$TriangleType)
+    156:158:public com.example.bluedrive.Point2D normalize(android.graphics.Point)
+com.example.bluedrive.TrianglePoints:
+    22:23:public void setBigTriangle(android.graphics.Point)
+    28:29:public void setSmallTriangle(android.graphics.Point)
+    34:35:public void setCircleEdgeNeg(android.graphics.Point)
+    40:41:public void setCircleEdgePos(android.graphics.Point)
+    46:47:public void setMedTriangle(android.graphics.Point)
+    52:53:public void setCircle(android.graphics.Point)
+test.AutoHelmTest

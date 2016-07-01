@@ -1,0 +1,85 @@
+com.example.bluedrive.AutoHelm
+com.example.bluedrive.AutoHelm: AutoHelm()
+com.example.bluedrive.AutoHelm: void tackPort(android.view.View)
+com.example.bluedrive.AutoHelm: void tackStarboard(android.view.View)
+com.example.bluedrive.AutoHelm: void pauseAutohelm(android.view.View)
+com.example.bluedrive.AutoHelm: void incrementHeading(android.view.View)
+com.example.bluedrive.AutoHelm: void decrementHeading(android.view.View)
+com.example.bluedrive.DeviceListActivity
+com.example.bluedrive.DeviceListActivity: DeviceListActivity()
+com.example.bluedrive.HandsOnImageView
+com.example.bluedrive.HandsOnImageView: HandsOnImageView(android.content.Context)
+com.example.bluedrive.HandsOnImageView: HandsOnImageView(android.content.Context,android.util.AttributeSet)
+com.example.bluedrive.HandsOnImageView: HandsOnImageView(android.content.Context,android.util.AttributeSet,int)
+com.example.bluedrive.HandsOnImageView: void setDigitalCompass(int)
+com.example.bluedrive.HandsOnImageView: int getDesiredHeading()
+com.example.bluedrive.HandsOnImageView: void setDesiredHeading(int)
+com.example.bluedrive.HandsOnImageView: void setAutoDrive(boolean)
+com.example.bluedrive.HandsOnImageView: void setGPSBearing(int)
+com.example.bluedrive.HandsOnImageView: void setAutoOn(boolean)
+com.example.bluedrive.R$color: int black
+com.example.bluedrive.R$drawable: int bat
+com.example.bluedrive.R$drawable: int compass6
+com.example.bluedrive.R$drawable: int compass_sheen
+com.example.bluedrive.R$drawable: int current_limit
+com.example.bluedrive.R$drawable: int ic_launcher
+com.example.bluedrive.R$drawable: int over_current
+com.example.bluedrive.R$drawable: int temp
+com.example.bluedrive.R$drawable: int temp_shutdown
+com.example.bluedrive.R$id: int batHighSignal
+com.example.bluedrive.R$id: int batLowSignal
+com.example.bluedrive.R$id: int button1
+com.example.bluedrive.R$id: int button5
+com.example.bluedrive.R$id: int button_scan
+com.example.bluedrive.R$id: int connect
+com.example.bluedrive.R$id: int currentLimitSignal
+com.example.bluedrive.R$id: int imageView
+com.example.bluedrive.R$id: int imageView1
+com.example.bluedrive.R$id: int imageView3
+com.example.bluedrive.R$id: int imageView4
+com.example.bluedrive.R$id: int imageView5
+com.example.bluedrive.R$id: int menu_settings
+com.example.bluedrive.R$id: int new_devices
+com.example.bluedrive.R$id: int overCurrentSignal
+com.example.bluedrive.R$id: int paired_devices
+com.example.bluedrive.R$id: int progressBar1
+com.example.bluedrive.R$id: int relativeLayout
+com.example.bluedrive.R$id: int tack_port_button
+com.example.bluedrive.R$id: int tack_starboard_button
+com.example.bluedrive.R$id: int tempShutdownSignal
+com.example.bluedrive.R$id: int tempSignal
+com.example.bluedrive.R$id: int text
+com.example.bluedrive.R$id: int title_new_devices
+com.example.bluedrive.R$id: int title_paired_devices
+com.example.bluedrive.R$layout: int activity_auto_helm
+com.example.bluedrive.R$layout: int device_list
+com.example.bluedrive.R$layout: int device_name
+com.example.bluedrive.R$menu: int activity_auto_helm
+com.example.bluedrive.R$raw: int comeabout
+com.example.bluedrive.R$string: int app_name
+com.example.bluedrive.R$string: int bt_not_enabled_leaving
+com.example.bluedrive.R$string: int button_scan
+com.example.bluedrive.R$string: int compass_description
+com.example.bluedrive.R$string: int connect
+com.example.bluedrive.R$string: int decrement_heading
+com.example.bluedrive.R$string: int increment_heading
+com.example.bluedrive.R$string: int menu_settings
+com.example.bluedrive.R$string: int none_found
+com.example.bluedrive.R$string: int none_paired
+com.example.bluedrive.R$string: int not_connected
+com.example.bluedrive.R$string: int pause_autohelm
+com.example.bluedrive.R$string: int scanning
+com.example.bluedrive.R$string: int select_device
+com.example.bluedrive.R$string: int send
+com.example.bluedrive.R$string: int statusText
+com.example.bluedrive.R$string: int tack_port
+com.example.bluedrive.R$string: int tack_starboard
+com.example.bluedrive.R$string: int title_connected_to
+com.example.bluedrive.R$string: int title_connecting
+com.example.bluedrive.R$string: int title_not_connected
+com.example.bluedrive.R$string: int title_other_devices
+com.example.bluedrive.R$string: int title_paired_devices
+com.example.bluedrive.R$style: int AppBaseTheme
+com.example.bluedrive.R$style: int AppTheme
+com.example.bluedrive.RadialTriangle$TriangleType: com.example.bluedrive.RadialTriangle$TriangleType[] values()
+com.example.bluedrive.RadialTriangle$TriangleType: com.example.bluedrive.RadialTriangle$TriangleType valueOf(java.lang.String)

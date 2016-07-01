@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:background="#000000"
+        android:layout_height="fill_parent" android:layout_margin="15px" android:focusable="true">
+    <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Use Phone GPS"
+                android:id="@+id/textViewGPS" android:layout_column="0"
+                android:textColor="#ffffff"
+                android:textIsSelectable="true"/>
+        <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/useGPSCheckBox" android:layout_column="4" android:checked="false"/>
+    </TableRow>
+    <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="PID to Motor Intensity"
+                android:id="@+id/textViewPIDMI" android:layout_column="0"
+                android:textColor="#ffffff"/>
+        <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="10"
+                android:id="@+id/PID2MI" android:layout_column="4"
+                android:singleLine="true"/>
+    </TableRow>
+    <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Noise for Autotune"
+                android:id="@+id/textView" android:layout_column="0"
+                android:textColor="#ffffff"/>
+        <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="200"
+                android:id="@+id/noise4Tuner" android:layout_column="4"
+                android:singleLine="true"/>
+    </TableRow>
+    <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Use Tolerance"
+                android:id="@+id/textView1" android:layout_column="0"
+                android:textColor="#ffffff"/>
+        <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/UseToleranceCheckBox" android:layout_column="4" android:checked="false"/>
+    </TableRow>
+    <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Allowed Tolerance"
+                android:id="@+id/textViewAT" android:layout_column="0"
+                android:textColor="#ffffff"/>
+        <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:id="@+id/toleranceValue" android:layout_column="4"
+                android:singleLine="true"/>
+    </TableRow>
+
+    <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Derivative Smooth"
+                android:id="@+id/textView2"
+                android:layout_column="0"
+                android:textColor="#ffffff"/>
+
+        <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="50"
+                android:id="@+id/derivativeSmooth"
+                android:layout_column="4"
+                android:singleLine="true"/>
+    </TableRow>
+
+    <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Compass Smooth"
+                android:id="@+id/textView3"
+                android:layout_column="0"
+                android:textColor="#ffffff"
+                android:singleLine="false"/>
+
+        <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="3"
+                android:id="@+id/compassSmooth"
+                android:layout_column="4"
+                android:singleLine="true"/>
+    </TableRow>
+
+    <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+        <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Exit"
+                android:id="@+id/exitSettings"
+                android:layout_column="4"/>
+    </TableRow>
+
+</TableLayout>

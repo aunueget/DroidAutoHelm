@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/AutoHelm/AutoHelm.iml" filepath="$PROJECT_DIR$/AutoHelm/AutoHelm.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BlueHelm/BlueHelm.iml" filepath="$PROJECT_DIR$/BlueHelm/BlueHelm.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BluetoothChat/BluetoothChat.iml" filepath="$PROJECT_DIR$/BluetoothChat/BluetoothChat.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HelloWorldTest/HelloWorldTest.iml" filepath="$PROJECT_DIR$/HelloWorldTest/HelloWorldTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/testProject/testProject.iml" filepath="$PROJECT_DIR$/testProject/testProject.iml" />
+    </modules>
+  </component>
+</project>
+

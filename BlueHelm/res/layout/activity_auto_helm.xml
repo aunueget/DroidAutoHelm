@@ -1,0 +1,121 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".AutoHelm" >
+
+
+    <Button
+        android:id="@+id/tack_port_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:text="@string/tack_port" 
+        android:onClick="tackPort" />
+
+    <Button
+        android:id="@+id/tack_starboard_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:text="@string/tack_starboard"
+        android:onClick="tackStarboard" />
+
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button1"
+        android:layout_centerHorizontal="true"
+        android:text="@string/statusText"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+        <RelativeLayout
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="fill_parent"
+                android:layout_height="281dp"
+                android:layout_alignParentLeft="true"
+                android:onClick="pauseAutohelm"
+                android:layout_below="@+id/button1" android:id="@+id/relativeLayout">
+            <com.example.bluedrive.HandsOnImageView
+                android:id="@+id/imageView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/compass_sheen"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/button1"/>
+            <ProgressBar
+                android:id="@+id/progressBar1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:indeterminate="false"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"/>
+
+        </RelativeLayout>
+
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="incrementHeading"
+        android:text="@string/increment_heading"
+        android:layout_alignLeft="@+id/tack_port_button" android:layout_alignParentTop="true"/>
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="decrementHeading"
+        android:text="@string/decrement_heading" android:layout_alignLeft="@+id/tack_starboard_button"
+        android:layout_alignTop="@+id/text"/>
+    <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tempSignal"
+            android:src="@drawable/temp"
+            android:layout_toRightOf="@+id/batHighSignal" android:layout_below="@+id/relativeLayout"/>
+    <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/currentLimitSignal"
+            android:src="@drawable/current_limit"
+            android:layout_toRightOf="@+id/tempShutdownSignal" android:layout_below="@+id/relativeLayout"/>
+    <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/batLowSignal"
+            android:src="@drawable/bat"
+            android:layout_toRightOf="@+id/overCurrentSignal" android:layout_below="@+id/relativeLayout"/>
+    <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tempShutdownSignal"
+            android:src="@drawable/temp_shutdown"
+            android:layout_toRightOf="@+id/tempSignal" android:layout_below="@+id/relativeLayout"/>
+    <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/overCurrentSignal"
+            android:src="@drawable/over_current"
+            android:layout_toRightOf="@+id/currentLimitSignal" android:layout_below="@+id/relativeLayout"/>
+    <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/batHighSignal"
+            android:src="@drawable/bat"
+            android:layout_alignLeft="@+id/tack_port_button" android:layout_below="@+id/relativeLayout"/>
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MC Info"
+            android:id="@+id/getInfo" android:layout_alignLeft="@+id/text"
+            android:onClick="requestDiagMessage"
+            android:layout_alignBottom="@+id/tack_port_button" android:layout_alignRight="@+id/text"/>
+
+
+</RelativeLayout>
